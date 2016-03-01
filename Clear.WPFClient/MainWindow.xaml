@@ -3,14 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Clear" Height="600" Width="400"
         Name="ClearMainWindow" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" AllowsTransparency="True"
         >
     <Window.Resources>
         <Style x:Key="RowCommonStyle" TargetType="TextBlock">
             <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="10,10,0,0" />
         </Style>
     </Window.Resources>
     <Grid Name="Grid1">
-        <Grid.RowDefinitions>
+        <!--<Grid.RowDefinitions>
             <RowDefinition Height="40" />
             <RowDefinition Height="40" />
             <RowDefinition Height="40" />
@@ -20,13 +22,13 @@
             <RowDefinition Height="40" />
         </Grid.RowDefinitions>
         <Grid Name="Row1" Grid.Row="0">
-            <TextBlock Style="{StaticResource RowCommonStyle}">test</TextBlock>
-        </Grid>
+            <TextBlock Style="{StaticResource RowCommonStyle}">Comprar tortillas</TextBlock>
+        </Gri>d
         <Grid Name="Row2" Grid.Row="1">
-            <TextBlock Style="{StaticResource RowCommonStyle}">test 2</TextBlock>
+            <TextBlock Style="{StaticResource RowCommonStyle}">Moler el maiz</TextBlock>
         </Grid>
         <Grid Name="Row3" Grid.Row="2">
-            <TextBlock Style="{StaticResource RowCommonStyle}">test 3</TextBlock>
+            <TextBlock Style="{StaticResource RowCommonStyle}">Asar los chiles</TextBlock>
         </Grid>
         <Grid Name="Row4" Grid.Row="3">
             <TextBlock Style="{StaticResource RowCommonStyle}">test 4</TextBlock>
@@ -39,6 +41,6 @@
         </Grid>
         <Grid Name="Row7" Grid.Row="6">
             <TextBlock Style="{StaticResource RowCommonStyle}">test 5</TextBlock>
-        </Grid>
+        </Grid>-->
     </Grid>
 </Window>
