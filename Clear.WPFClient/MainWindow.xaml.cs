@@ -13,6 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 //using System.Drawing;
+using Clear.Model;
 
 namespace Clear.WPFClient
 {
@@ -22,11 +23,16 @@ namespace Clear.WPFClient
     public partial class MainWindow : Window
     {
         BrushConverter bc = new BrushConverter();
+        ITaskRepository taskRepository;
+
         public MainWindow()
         {
+            taskRepository = new TaskRepository();
             InitializeComponent();
 
             ClearMainWindow.Background = (Brush)bc.ConvertFrom("#1F1F1F");
+
+
 
             AddRows();
             //PrepareRows();
@@ -41,8 +47,8 @@ namespace Clear.WPFClient
 
             // starter color
             int jump = 5;
-            byte lastR = 228, lastG = 54, lastB = 45;
-            //byte lastR = 17, lastG = 127, lastB = 248;
+            //byte lastR = 228, lastG = 54, lastB = 45;
+            byte lastR = 17, lastG = 127, lastB = 248;
             //byte lastR = 87, lastG = 163, lastB = 13;
             //byte lastR = 88, lastG = 164, lastB = 14;
             //byte lastR = 127, lastG = 47, lastB = 246;
