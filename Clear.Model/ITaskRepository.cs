@@ -8,5 +8,8 @@ namespace Clear.Model
     public interface ITaskRepository
     {
         IEnumerable<Task> GetTasks();
+        void Create(Task task);
+        bool Update(Task task);
+        Task GetTask(Guid taskId);
     }
 }

@@ -8,4 +8,36 @@
     <taskId>E51E37AC-AD0A-427A-9D6B-D0F42E045B20</taskId>
     <name>Comprar soda</name>
   </task>
+  <task>
+    <taskId>7ECDBA00-5D88-40DA-BCC0-5BC54A190809</taskId>
+    <name>Crear capa "Data"</name>
+  </task>
+  <task>
+    <taskId>28C35642-606F-4D3B-9A40-F7E53FC6B5E1</taskId>
+    <name>Agregar boton agregar</name>
+  </task>
+  <task>
+    <taskId>C424A845-44E4-48A9-9A46-92D0054500C2</taskId>
+    <name>Agregar funcionalidad de edicion</name>
+  </task>
+  <task>
+    <taskId>92D0B3F6-C319-4578-942A-454EF19CFF4D</taskId>
+    <name>"Drag and drop"</name>
+  </task>
+  <task>
+    <taskId>1D37CFE8-B5C2-4216-93DA-2E7BFAEA44A9</taskId>
+    <name>Agregar Prioridad</name>
+  </task>
+  <task>
+    <taskId>1D37CFE8-B5C2-4216-93DA-2E7BFAEA44A9</taskId>
+    <name>Close button</name>
+  </task>
+  <task>
+    <taskId>1D37CFE8-B5C2-4216-93DA-2E7BFAEA44A9</taskId>
+    <name>WPF layout</name>
+  </task>
+  <task>
+    <taskId>1D37CFE8-B5C2-4216-93DA-2E7BFAEA44A9</taskId>
+    <name>Themes</name>
+  </task>
 </tasks>

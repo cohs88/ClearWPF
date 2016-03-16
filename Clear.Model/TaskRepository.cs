@@ -31,5 +31,21 @@ namespace Clear.Model
 
             return list;
         }
+
+
+        public void Create(Task task)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update(Task task)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task GetTask(Guid taskId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
